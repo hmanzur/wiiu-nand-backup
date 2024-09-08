@@ -1,0 +1,11 @@
+{
+  "title": "Inkay",
+  "author": "Pretendo Network",
+  "category": "aroma",
+  "version": "2.6.0",
+  "url": "https://github.com/PretendoNetwork/Inkay",
+  "license": "GPLv3",
+  "description": "Aroma patches for Pretendo",
+  "details": "Inkay is an Aroma/WUPS plugin that patches various Nintendo Network URLs on a Wii U to use Pretendo Network instead. It also (for the time being) bypasses SSL verification in most cases.\\n\\nInkay does not currently include the game-specific patches present in Nimble. These will be implemented soon™.\\n\\nInkay's patches are all temporary, and only applied in-memory without modifying your console. The SSL patch, while also temporary, could reduce the overall security of your console while active - this is because it no longer checks if a server is verified. However, this does not apply to the Internet Browser, where SSL still works as expected.....",
+  "changelog": "2.6.0\\n\\nInkay now manually refreshes the BOSS Policy list on each boot when patching is enabled. This increases SpotPass reliability dramatically and fixes some errors in games. (e.g. 104-2210 on Splatoon)\\n\\nA point release with more translations is coming soon.\\n\\n2.5.0\\n\\nFix aroma beta 17+ incompatibilities by @TraceEntertains and @Maschell in #28\\nPlease ensure you update Aroma before installing this new Inkay!\\nAccount Settings and eShop app support by @CaramelKat in #17\\nItalian translation by @KintsugiUwU in #23 and #24\\nGerman translation by @SteffoSpieler and @BlinkingJarl482\\nFrench translation by @InternalLoss\\nSpanish translation by @EmiSocks\\n\\n2.4.0\\n\\nAdded NNCS server redirection\\n\\n2.3.0\\n\\nAdded GPLv3 license\\nAdded BOSS task settings\\nGeneral stability improvements"
+}

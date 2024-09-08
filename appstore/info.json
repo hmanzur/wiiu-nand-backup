@@ -1,0 +1,11 @@
+{
+  "title": "HB App Store",
+  "author": "4TU Team",
+  "category": "aroma",
+  "version": "2.3.2",
+  "url": "https://github.com/vgmoose/hb-appstore",
+  "license": "GPLv3",
+  "description": "Download homebrew apps",
+  "details": "Homebrew App Store allows you to download homebrew apps for HBL directly in the app. Installed apps can also be reinstalled, updated, or deleted.\\n\\nMusic by (T-T)b (google t tb chiptunes!)\\nThanks to pwsincd, brienj, and dimok!\\n\\nsource code: https://github.com/vgmoose/hbas\\nThis copy is precompiled for http://wiiubru.com/appstore\\n\\n",
+  "changelog": "2.3.2\\nFixes 'Most Recent' sorting order\\nAll other fixes in 2.3.1 (see below)\\n\\n2.3.1\\nAll Platforms:\\n\\n- Uses full qwerty keyboard on Search/Feedback pages\\n- Adjustments to the App details page:\\n  - View multiple Screenshots when available\\n  - List to-be-installed files with button press\\n  - Change uninstall button to X, to prevent accidental clicks\\n- Faster zip extraction for large packages (Thanks @Maschell!)\\n- Allow changing of music by replacing background.mp3 file\\n  - MP3 title and artist are now displayed in the UI\\n- Adds SFX when moving cursor through menus\\n- Save and remember music/sfx toggle setting\\n\\nWii U Specific:\\n\\n- Compiles to both .wuhb and .rpx formats\\n  - New sidebar category [Aroma-Ready] hosts .wuhb homebrew*\\n- Properly implement app exiting via ProcUI (Thanks again @Maschell!)\\n- Music plays at a higher quality and lower volume\\n  - Uses the full version of Slimers by (T-T)b with lyrics\\n  - https://t-tb.bandcamp.com/track/slimers\\n- Use HTTPS for repo and enable by default (Thanks @GaryOderNichts!)\\n- Icon size matches Switch build (no longer uses HBL-style icons)\\n- Change sidebar color from purple to blue\\n\\n2.2\\n- No more loading bar! Icons load on the fly\\n- Recovery mode added, accessed by pressing repeatedly L/R immediately after launching\\n- Switched to Chesto/resinfs for drawing UI and asset storage\\n- Updated Credits/About Screen\\n- Bugfixes around UI and unpacking files"
+}

@@ -1,0 +1,7 @@
+{
+	"repos": [{
+		"name": "Default Repo",
+		"url": "https://wiiu.cdn.fortheusers.org",
+		"enabled": true
+	}]
+}
